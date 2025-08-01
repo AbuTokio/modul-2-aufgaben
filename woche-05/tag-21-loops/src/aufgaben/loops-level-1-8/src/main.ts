@@ -5,7 +5,9 @@ let counter = 1
 
 if (outputElement) {
   do {
-    outputElement.textContent += "The number is " + counter + "\n"
+    if (counter % 2 === 0) {
+      outputElement.textContent += counter.toString() + "\n"
+    }
     counter++
-  } while (counter <= 5)
+  } while (counter <= 20)
 }
