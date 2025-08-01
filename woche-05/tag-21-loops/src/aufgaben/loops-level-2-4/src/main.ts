@@ -5,7 +5,9 @@ function addToFifty(): void {
   let counter = 0
 
   while (counter < limit) {
-    counter += Number((Math.random() * 10).toFixed())
+    const addNumber = Number((Math.random() * 10).toFixed())
+    console.log("Adding:", addNumber)
+    counter += addNumber
   }
 
   console.log(counter + "> 50. Stopping right here.")
