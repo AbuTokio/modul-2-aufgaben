@@ -1,6 +1,7 @@
 import "./style.css"
 
 const outputElement = document.querySelector<HTMLDivElement>(".output")
+
 let counter = 1
 
 if (outputElement) {
