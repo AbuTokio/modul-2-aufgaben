@@ -21,6 +21,8 @@ function getMean(testResults: number[]): string {
     return "Gut"
   } else if (mean >= 90) {
     return "Sehr gut"
+  } else {
+    return "Fehler bei der Berechnung"
   }
 }
 
