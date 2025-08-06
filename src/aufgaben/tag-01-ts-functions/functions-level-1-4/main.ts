@@ -1,4 +1,4 @@
-import "./style.css"
+import "../../../style.css"
 
 function showHero(heroName: string, heroPower: string, heroEnemy: string): void {
   const nameOutput: string = "Mein Lieblingsheld aus Marvel ist: " + heroName + ". "
