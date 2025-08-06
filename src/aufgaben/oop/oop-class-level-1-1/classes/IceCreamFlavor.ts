@@ -1,8 +1,8 @@
 export class IceCreamFlavor {
   private _name: string = ""
-  private _price: number = 0
+  _price: number = 0
   private _isPopular: boolean = false
-  private _description?: string = undefined
+  _description?: string = undefined
 
   get name(): string {
     return this._name

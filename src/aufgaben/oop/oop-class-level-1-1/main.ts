@@ -1,5 +1,5 @@
 import "../../../style.css"
-import { IceCreamFlavor } from "./IceCreamFlavor"
+import { IceCreamFlavor } from "./classes/IceCreamFlavor"
 
 const iceCream1 = new IceCreamFlavor("Schokolade", 2, true)
 const iceCream2 = new IceCreamFlavor("Vanille", 1, true)
