@@ -1,0 +1,14 @@
+import "../../../style.css"
+
+const numbers: number[] = [23, 54, 75]
+console.log(numbers)
+numbers.push(11, 32, 42, 5, 71)
+console.log(numbers)
+numbers.unshift(1, 3, 7, 8, 14)
+console.log(numbers)
+numbers.pop()
+numbers.pop()
+console.log(numbers)
+numbers.shift()
+numbers.shift()
+console.log(numbers)
