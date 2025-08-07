@@ -1,0 +1,68 @@
+.darkmode {
+  --bg-dark: oklch(0.1 0 250);
+  --bg: oklch(0.15 0 250);
+  --bg-light: oklch(0.2 0 250);
+  --text: oklch(0.96 0 250);
+  --text-muted: oklch(0.76 0 250);
+  --highlight: oklch(0.5 0 250);
+  --border: oklch(0.4 0 250);
+  --border-muted: oklch(0.3 0 250);
+  --primary: oklch(55.732% 0.22213 274.278);
+  --secondary: oklch(62.932% 0.17251 305.934);
+  --danger: oklch(0.7 0.05 30);
+  --warning: oklch(0.7 0.05 100);
+  --success: oklch(0.7 0.05 160);
+  --info: oklch(0.7 0.05 260);
+  --shadow-light: oklch(0.4 0 250);
+  --shadow: oklch(0.5 0 250);
+  --shadow-dark: oklch(0.76 0 250);
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+p {
+  text-align: center;
+  line-height: 0;
+}
+
+.output > div > p:first-of-type {
+  font-size: 2rem;
+}
+
+.output > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.output > div > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.output > div {
+  padding: 0.5rem;
+  border: 1px solid oklch(0.7 0.05 260);
+  border-radius: 1rem;
+  background-color: oklch(55.732% 0.22213 274.278);
+  height: 300px;
+  width: 300px;
+  box-shadow: 1px 1px 10px 0 oklch(0.7 0.05 260);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
