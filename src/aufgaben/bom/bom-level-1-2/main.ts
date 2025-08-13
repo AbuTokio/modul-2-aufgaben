@@ -9,7 +9,7 @@ const htmlElements = {
 htmlElements.startButton.addEventListener("click", () => {
   let zeit: number = 100
 
-  const timer = setInterval(() => {
+  const timer: number = setInterval(() => {
     if (zeit <= 0) {
       clearInterval(timer)
     }
